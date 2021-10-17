@@ -6,8 +6,8 @@ public class Main {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		int n = sc.nextInt();
-		int i = n;
+		long n = sc.nextInt();
+		long i = n;
 		if (4 < n && n < 16) {
 			while (i >= 2) {
 				i--;
